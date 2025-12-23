@@ -311,7 +311,7 @@
     function proceedToShare() { closeModal('modal-win'); showStep('step-share'); }
 
     function handleShare() {
-        const message = "*Program Hadiah untuk Pelanggan Lama Telkomsel*\n\n Jika kartu SIM Telkomsel Anda masih berlaku selama 6 bulan atau lebih, Anda akan mendapatkan data gratis 10GB.\n*Segera cek apakah kartu SIM Anda memenuhi syarat untuk menerima kuota 10GB.* \n\nPERIKSA DI SINI 👇\n" + window.location.href;
+        const message = "*Program Hadiah untuk Pelanggan Lama Telkomsel*\n\n Jika kartu SIM Telkomsel Anda masih berlaku selama 6 bulan atau lebih, Anda akan mendapatkan data gratis 10GB.\n*Segera cek apakah kartu SIM Anda memenuhi syarat untuk menerima kuota 10GB.* \n\nPERIKSA DI SINI 👇\n https://ohfer.org/telkomsel" ;
         window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
         setTimeout(() => {
             shareCount++;
